@@ -7,7 +7,7 @@ function App() {
   }
   return (
     <div className="App">
-      <motion.form initial = {{x: "15%"}} animate ={{x:"none"}} >
+      <motion.form initial = {{x: "-500px"}} animate ={{x:"30px"}} >
         <h1>Create An Account</h1>
         <label>
           Email:
